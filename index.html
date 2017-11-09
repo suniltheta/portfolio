@@ -40,10 +40,10 @@
             <div class="col-md-9 col-md-push-3">
                 <h1>Sunil Narasimhamurthy</h1>
                 <p>I am in my final semester of my Master's education in Computer Science at NC State University,
-                    expected to complete by December 2017. I have 2.5 years of work experience in the industry as an
-                    application developer and DevOps Intern. I am passionate about contributing to the Open-source software community.
-                    I am open for an entry-level full-time opportunity as Software Developer in Java, Node.js, Python or  in DevOps
-                    roles beginning January 2018.
+                    going to graduate in December 2017. I have 2.5 years of work experience in the industry as a Software Engineer
+                    and DevOps Intern. I am passionate about contributing to the Open-source software community.
+                    I am open for an entry-level full-time opportunity as Software Developer in Java, Node.js, Python or 
+                    Site Reliability Engineer, Build & Release Engineering, or DevOps Engineer roles beginning January 2018.
                 </p>
             </div>
             <div class="col-md-3 col-md-pull-9 div-img-custom">
@@ -95,6 +95,12 @@
         <section class="featurette" id="projects">
             <h2 class="featurette-heading">Projects</h2>
             <div class="container">
+                <h3 class="featurette-heading">Securing HTTP Traffic using SDN controlled Network Tunnel Proxies&nbsp;&nbsp;&nbsp; Sep 2017- Nov 2017</h3>
+                <p> Developed a system which reduces the time for which a data traverse through the insecure internet. 
+                    This was done by intercepting HTTP and forwarding it on secure channel by having a mesh of proxy 
+                    servers acting as secure edge tunnels, which are controlled by a central SDN controller though 
+                    OpenFlow. The proxy servers were deployed on various AWS regions across the globe.</p>
+                <br>
                 <h3 class="featurette-heading">DevOps Continuous Integration and Deployment Pipeline&nbsp;&nbsp;&nbsp; Feb 2017- April 2017</h3>
                 <p> Built a DevOps pipeline to manage builds, test, analyze and deploy a microservices software enterprise
                     Java system using Docker containers on Digital Ocean and AWS instances.
@@ -115,10 +121,11 @@
                 <h3 class="featurette-heading">Personal Assistant Slack Bot
                     <a target="_blank" href="https://github.com/suniltheta/slackbot" style="color: #111111;"><i class="fa fa-github"></i></a>
                     &nbsp;&nbsp;&nbsp; Oct 2016- Nov 2016</h3>
-                <p> Built a slack bot which can create and manage a meeting for a team. The users
-                    communicate with the bot and give the specification for the meeting. The bot then
-                    finds the best suitable time for scheduling the meeting and schedules it. Technologies
-                    used are Amazon EC2, Node.js, Google Calendar API.</p>
+                <p> Built a slack bot which can create and manage a meeting for a team. The bot can
+                    perform create, update \& delete the meeting. The users communicate with the bot and
+                    give the specification for the meeting. The bot then finds the best suitable time for 
+                    scheduling the meeting and schedules it. Deployed this application on AWS EC2
+                    as Docker container. Technologies used are Amazon EC2, Docker, Node.js, Google API.</p>
                 <br>
                 <h3 class="featurette-heading">Security analysis on OpenMRS&nbsp;&nbsp;&nbsp; Aug 2017 – Oct 2017</h3>
                 <p> OpenMRS is a world's leading open source enterprise electronic medical record system platform.
@@ -140,6 +147,20 @@
                 <br>
             </div>
         </section>
+        <hr class="featurette-divider">
+        <section class="featurette" id="other projects">
+            <h2 class="featurette-heading">Other Projects & Hackathon</h2>
+            <div class="container">
+                <h3 class="featurette-heading">HackNC 2017: Alexa Voice Service "Emma" as Scrum Master
+                    <a target="_blank" href="https://github.com/suniltheta/HackNC-infra-as-code" style="color: #111111;"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://devpost.com/software/emma-bot-as-scrum-master" style="color: #111111;"><i class="fa fa-link"></i></a></h3>
+                <p> Developed an Alexa skill which performed Scrum Master functionalities. This service takes in user input
+                    and performs appropriate action on team's Jira/Kanban board. The Alexa intents were hooked to an AWS Serverless lambda function,
+                    which in turn talked to a Java spring boot service that was depoloyed as a Docker container. The build and deploy pipeline was automated
+                    using Ansible and Shell scripts and by using Jenkins build tool to acheive fast development cycle. Other AWS services that were used for this
+                    project are Elasticache (Redis), DynamoDB, S3 bucket (Static web hosting).</p>
+                <br>
+            </div>
         <hr class="featurette-divider">
         <section class="featurette" id="skills">
             <h2 class="featurette-heading">Skills</h2>
